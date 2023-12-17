@@ -31,3 +31,15 @@ body{
     height: 500px;
     border: 1px solid black;
 }
+
+
+@media screen and (max-width:768px) {
+    .board{
+        width: 95%;
+    }
+}
+@media screen and (max-width:480px) {
+   .board{
+    width: 95%;
+   }
+}
