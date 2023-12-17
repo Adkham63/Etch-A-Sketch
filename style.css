@@ -13,6 +13,7 @@ body{
     flex-direction: row;
     align-items: center;
     margin-bottom: 30px;
+    
 }
 
 .footer{
@@ -34,11 +35,11 @@ body{
 
 @media screen and (max-width:768px) {
     .board{
-        width: 85%;
+        width: 95%;
     }
 }
 @media screen and (max-width:480px) {
    .board{
-    width: 85%;
+    width: 95%;
    }
 }
