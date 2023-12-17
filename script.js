@@ -23,7 +23,6 @@ document.addEventListener("DOMContentLoaded", function(){
 
     function createBoard(size){
       let board = document.querySelector(".board");
-
       board.style.gridTemplateColumns = `repeat(${size}, 1fr)`;
       board.style.gridTemplateRows = `repeat(${size}, 1fr)`;
 
@@ -31,6 +30,8 @@ document.addEventListener("DOMContentLoaded", function(){
 
       for(let i=0; i < numDivs; i++){
         let div = document.createElement("div");
+        div.style.border = '1px solid grey';
+        div.style.backgroundColor = 'white';
         div.addEventListener("mouseover", colorDiv);
         board.appendChild(div);  
       }
@@ -70,3 +71,6 @@ document.addEventListener("DOMContentLoaded", function(){
       let divs = document.querySelectorAll("div");
       divs.forEach((div)=>div.style.backgroundColor = "white");
     };
+
+
+    
