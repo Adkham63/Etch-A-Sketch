@@ -35,11 +35,11 @@ body{
 
 @media screen and (max-width:768px) {
     .board{
-        width: 95%;
+        width: 85%;
     }
 }
 @media screen and (max-width:480px) {
    .board{
-    width: 95%;
+    width: 85%;
    }
 }
